@@ -15,6 +15,18 @@
 > **이 저장소는 단독 실행되는 Unity 프로젝트가 아닙니다.**
 > 팀 비공개 프로젝트에서 KMB 담당 소스만 분리했습니다. 플레이어·동료·공통 전투·저장·UI 및 외부 에셋은 포함하지 않습니다. 코드를 빌드하거나 실행하기 위한 필수 의존성이 생략되어 있습니다.
 
+## Windows 플레이 데모
+
+**[게임 다운로드 · Windows x64 ZIP · 약 278MB](https://github.com/alsqja402/DungeonHold-KMB-Portfolio/releases/download/demo-v0.1.0/DungeonHold-Windows-x64-demo-v0.1.0.zip)** · [릴리스·체크섬 확인](https://github.com/alsqja402/DungeonHold-KMB-Portfolio/releases/tag/demo-v0.1.0)
+
+1. ZIP을 **전체 압축 해제**합니다.
+2. `DungeonHold/TeamProject.exe`를 실행합니다. Unity 에디터는 필요하지 않습니다.
+3. 자세한 조작법은 ZIP 안 `DungeonHold/README.txt`를 참고합니다.
+
+추천 확인 순서: 설치·회전·철거 → 적 반격 → Stage 3 석상 전환·보스 광역기.
+
+이 데모는 **팀 프로젝트 전체 실행 빌드**이고, 아래 소스는 KMB 담당 코드 발췌입니다. 제공받은 기존 빌드를 배포했으며 이번 작업에서 재빌드·실행·완주 검증하지 않았습니다. 원본 테스트 키 중 **O는 진행 데이터 초기화**이므로 주의해 주세요.
+
 ## 먼저 볼 구현 세 가지
 
 | 대표 구현 | 해결한 문제 | 코드 · 설명 |
