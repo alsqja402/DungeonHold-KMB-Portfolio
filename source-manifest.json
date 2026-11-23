@@ -1,0 +1,272 @@
+{
+  "project": "Dungeon Hold",
+  "scope": "KMB-owned runtime source and custom shaders; code-reading portfolio, not standalone Unity project",
+  "sourceCommit": "87e6582baab5b97f0d00f114b00b64d21fdaa10f",
+  "files": [
+    {
+      "exportPath": "src/Enemy/EnemyAttack.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/EnemyAttack.cs",
+      "sha256": "b1c334d99355d3e00cd9a83f6ed1437efe0d97d97e8b7f9daede701a5125fc37"
+    },
+    {
+      "exportPath": "src/Enemy/EnemyCombat.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/EnemyCombat.cs",
+      "sha256": "8caa7f86f6fe1e31f83248f9e133546eac772b352e0be39707b6c7912181d388"
+    },
+    {
+      "exportPath": "src/Enemy/EnemyData.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/EnemyData.cs",
+      "sha256": "d6ea7a83b8bff41baa30a9663c70b29b852b40a6553d3e8a85176ef66ef236e9"
+    },
+    {
+      "exportPath": "src/Enemy/EnemyMovement.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/EnemyMovement.cs",
+      "sha256": "2e4c392cc4d87c9e8f8925389ef5a4160f7d9da0b3e3dbb0a87b1b459d4eda46"
+    },
+    {
+      "exportPath": "src/Enemy/EnemyMovementType.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/EnemyMovementType.cs",
+      "sha256": "e24bbb3cb6bcfddb119cc9cdae2d2e42c78f66044fa84a0aba55fda6bc26b0cf"
+    },
+    {
+      "exportPath": "src/Enemy/EnemyPath.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/EnemyPath.cs",
+      "sha256": "04b123c06d5fefb89d589c749bf9aee74c2a808481e9be21c869abc7a2fb57c2"
+    },
+    {
+      "exportPath": "src/Enemy/EnemyPlayerDetector.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/EnemyPlayerDetector.cs",
+      "sha256": "68b52bd16b65962929db35f2793c9de8555e0d45a3586454ed772b3c5516400a"
+    },
+    {
+      "exportPath": "src/Enemy/EnemyReaction.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/EnemyReaction.cs",
+      "sha256": "6b3fcb454af93764a22bda33d3bdb72c9abe8b214b2b6e482b45a59c6bc2dad2"
+    },
+    {
+      "exportPath": "src/Enemy/EnemyReactionMode.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/EnemyReactionMode.cs",
+      "sha256": "92a0f411b99b4a935d4c5921d3048bb0d676cbb633ba0a4e1dbbb9d0d6e41278"
+    },
+    {
+      "exportPath": "src/Enemy/EnemySpawner.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/EnemySpawner.cs",
+      "sha256": "8800bbe2159516a4ba2015751b33831f6e1fe077e866e7c834eccb32b301933d"
+    },
+    {
+      "exportPath": "src/Enemy/MinotosAreaSlam.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/MinotosAreaSlam.cs",
+      "sha256": "230de1993441b424688d96710e0086d162fbf2a31eb5cf6bc445e5882eee469d"
+    },
+    {
+      "exportPath": "src/Enemy/EnemyAnimation/EnemyAnimation.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/EnemyAnimation/EnemyAnimation.cs",
+      "sha256": "3471325ea979c6ae32f8c716e2a989832af62cdcfc247cac512ae6184918a466"
+    },
+    {
+      "exportPath": "src/Enemy/EnemyAnimation/EnemyAnimationEvents.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Enemy/EnemyAnimation/EnemyAnimationEvents.cs",
+      "sha256": "e323a6ea3477b086529fc4e8cdf3955de7389dd4f69984106b30f25b91b8c123"
+    },
+    {
+      "exportPath": "src/Installation/ArrowTower.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/ArrowTower.cs",
+      "sha256": "6c06513784fed6af0526ba0b27d0b9bab4f2a3615fdafbf05be34d455f49eae8"
+    },
+    {
+      "exportPath": "src/Installation/ArrowTowerAimProvider.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/ArrowTowerAimProvider.cs",
+      "sha256": "248f2c1353efd6703344f069a75bc9ce1e05efbfa2d64bbef8aa5668bf5b9351"
+    },
+    {
+      "exportPath": "src/Installation/BuildArea.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/BuildArea.cs",
+      "sha256": "fc5d0e42bc855bcb0612560c6ae182876600f087a3650398cc79668ffa99fd85"
+    },
+    {
+      "exportPath": "src/Installation/BuildPhaseGate.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/BuildPhaseGate.cs",
+      "sha256": "d97c9fb97f6ee2a066755a62a22fa9c7a9519b72debaf81a93a4aa35b7b338c6"
+    },
+    {
+      "exportPath": "src/Installation/BuildPlacementBlocker.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/BuildPlacementBlocker.cs",
+      "sha256": "02bfb3d3653cd9e55ec8d876bc6efc42edf670aaf95607bc3886f6a4aa002bf5"
+    },
+    {
+      "exportPath": "src/Installation/BuildPlacementController.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/BuildPlacementController.cs",
+      "sha256": "8643043616b1935ee1caaa7112d12cb02fe08d381b6021ed98203e028214dbcd"
+    },
+    {
+      "exportPath": "src/Installation/BuildPlacementValidator.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/BuildPlacementValidator.cs",
+      "sha256": "9d84f378d9519e29db504bc45c4b24986dbe12ae731a92ece88c29efa062f2e5"
+    },
+    {
+      "exportPath": "src/Installation/BuildPreviewController.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/BuildPreviewController.cs",
+      "sha256": "4949d877eb5635f1e331c244457a8db961c19184c4ffb45a841ee1a46583185e"
+    },
+    {
+      "exportPath": "src/Installation/FireTrap.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/FireTrap.cs",
+      "sha256": "cd55e8b82451bc6eeddcb9b09014f6791181ba431a183f662854584a0615cf4a"
+    },
+    {
+      "exportPath": "src/Installation/FrostTrap.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/FrostTrap.cs",
+      "sha256": "b202366fa6668fdc23aaccd4826f2b212a2dfda307f617ca88c0d58db283306b"
+    },
+    {
+      "exportPath": "src/Installation/InstallationEconomyData.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/InstallationEconomyData.cs",
+      "sha256": "d5d8b8c2da9813224df20367d1093cb1dbc43eab9e7f7bed0f0359356b9908b8"
+    },
+    {
+      "exportPath": "src/Installation/InstallationModelPreview.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/InstallationModelPreview.cs",
+      "sha256": "402c0ea90fd89c7b38e5ff740f3382be73bd5a27983750acc0d115074f90852e"
+    },
+    {
+      "exportPath": "src/Installation/PlacedInstallation.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/PlacedInstallation.cs",
+      "sha256": "ad16baa0ac8b6aad69e5eabe728b9dc80d4d47b4cb1a9e135f81715193a7567d"
+    },
+    {
+      "exportPath": "src/Installation/ShockTrap.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/ShockTrap.cs",
+      "sha256": "aca091945800e4da906850f49d9ab4d0ac6b9fd5da2f4689585d668691cff448"
+    },
+    {
+      "exportPath": "src/Installation/SpikeTrap.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/SpikeTrap.cs",
+      "sha256": "aa7450718bdda802871b3ba66ff9dda1624f6b9640302c3d996fe4a46b585505"
+    },
+    {
+      "exportPath": "src/Installation/TrapData.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/TrapData.cs",
+      "sha256": "86a0560b1ba08698ed09ac9bf3c9261932899dd85f85bc7c4d70d0f4695d9388"
+    },
+    {
+      "exportPath": "src/Installation/TrapDataMap.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Installation/TrapDataMap.cs",
+      "sha256": "6eac552271ccf0c489d21b3f7e9ef328c524bf0d189ce082816fdfdbfc2eee67"
+    },
+    {
+      "exportPath": "src/Minimap/EnemyMinimapTarget.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Minimap/EnemyMinimapTarget.cs",
+      "sha256": "1e86388ce502ada5a56e02584ba709e586b76159dcbd85253b5d08731ac3f938"
+    },
+    {
+      "exportPath": "src/Minimap/MinimapTarget.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Minimap/MinimapTarget.cs",
+      "sha256": "e43e756601a66418d6533a0eb7c31fd62c37a2830398d99bd636f0b63f516dcc"
+    },
+    {
+      "exportPath": "src/Minimap/MinimapTargetType.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Minimap/MinimapTargetType.cs",
+      "sha256": "87e120e65622a6b796f54a855acd2bf527b1da39532f7f93ab42d4ed451c5a18"
+    },
+    {
+      "exportPath": "src/Stage/KMBLobbyEnemySource.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/KMBLobbyEnemySource.cs",
+      "sha256": "b5e59c2784eab97ea782263eff05c9115b2dc159be80367baec2e4c68534cba6"
+    },
+    {
+      "exportPath": "src/Stage/KMBStage1Entry.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/KMBStage1Entry.cs",
+      "sha256": "42cf34803830370244c766e32fe1655f04b6e03856170e309999ae4f96ef0558"
+    },
+    {
+      "exportPath": "src/Stage/KMBStage2Entry.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/KMBStage2Entry.cs",
+      "sha256": "65db6ea565b42a9c41baf11dc7a6f04404a35ae0c9fd0ca2afe081e5c2e56009"
+    },
+    {
+      "exportPath": "src/Stage/KMBStage3Entry.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/KMBStage3Entry.cs",
+      "sha256": "0e5b3266bbcb4e924f13b77c810ab5e367f7a2b215b5594a53399af08cc7915f"
+    },
+    {
+      "exportPath": "src/Stage/Stage1Controller.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/Stage1Controller.cs",
+      "sha256": "1863d1d56e097f77587500fa8a8d6b75afb66d0bf85aed07c608bf8f5a692183"
+    },
+    {
+      "exportPath": "src/Stage/Stage1Data.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/Stage1Data.cs",
+      "sha256": "e6ec74bab91d28a01ea67600cf2f3b7d12c5f159845e7e186d008d1a96831d7a"
+    },
+    {
+      "exportPath": "src/Stage/Stage2Controller.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/Stage2Controller.cs",
+      "sha256": "0b1ef1ba50d07fc4b818222478a063d16eaa63b73f6578e933ac0475b809a83a"
+    },
+    {
+      "exportPath": "src/Stage/Stage2Data.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/Stage2Data.cs",
+      "sha256": "533a0707f37edd6bdd0574a6fde9e51b44e055522b3c9566d3b5ac96ae056a92"
+    },
+    {
+      "exportPath": "src/Stage/Stage2DefenseGoal.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/Stage2DefenseGoal.cs",
+      "sha256": "952e5e1d2ba3f7a44ddd0fc5f326a332ba831ce9e0e1b701a5b2acfa52444166"
+    },
+    {
+      "exportPath": "src/Stage/Stage3Controller.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/Stage3Controller.cs",
+      "sha256": "0721bb4fd4fda6a3c5d540d27d9d8656c196c52e94ac7178feaa04c7114b527c"
+    },
+    {
+      "exportPath": "src/Stage/Stage3Data.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/Stage3Data.cs",
+      "sha256": "bc60667d496db8b9936e66be8bd50b769cfd7b86245ceb2360a146d46dc82515"
+    },
+    {
+      "exportPath": "src/Stage/Stage3StatueReveal.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/Stage3StatueReveal.cs",
+      "sha256": "1e328f8dcdab58b689727a8cbbbe12337866accc22dc76c2a63f417b4ea6e7e4"
+    },
+    {
+      "exportPath": "src/Stage/StageScoreData.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Stage/StageScoreData.cs",
+      "sha256": "74db123de498f2c73a11f11295016c4c0e0e4a19ce9f607f8f9c29f8b98726de"
+    },
+    {
+      "exportPath": "src/Wave/EnemySpawnData.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Wave/EnemySpawnData.cs",
+      "sha256": "07a74305f0ef476f63b2cdbe15dc370d55cd3534627aba569cc12f568f478c4f"
+    },
+    {
+      "exportPath": "src/Wave/WaveController.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Wave/WaveController.cs",
+      "sha256": "e3f622dbb1b190eeb620fe77fe2ea890becdc7372449b51a4dad2ee342e04908"
+    },
+    {
+      "exportPath": "src/Wave/WaveData.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Wave/WaveData.cs",
+      "sha256": "9612eecd3ae5d0f4c8506c0b84faee5774afaefc156e73fb861965915e174dfc"
+    },
+    {
+      "exportPath": "src/Wave/WaveStartInput.cs",
+      "sourcePath": "Assets/02. Scripts/KMB/Wave/WaveStartInput.cs",
+      "sha256": "c1c10f6861f1941da53994eed4413ad50a568a5d46accf07afc2829f935618e0"
+    },
+    {
+      "exportPath": "src/Shaders/MinotosAreaSlamTelegraph.shader",
+      "sourcePath": "Assets/05. Animations/Enemy/Minotos/MinotosAreaSlamTelegraph.shader",
+      "sha256": "ff20884c832a830c084ae07a957be25115b847a8016a1b22910fa39811b27909"
+    },
+    {
+      "exportPath": "src/Shaders/Stage3StatueCracks.shader",
+      "sourcePath": "Assets/07. Materials/KMB/Stage3StatueCracks.shader",
+      "sha256": "90b5bcdbecbe4689c98b9d478b844cd734fdf4aed55256e5d6d8e5b81b4a2f74"
+    },
+    {
+      "exportPath": "src/Shaders/InstallationPreviewOutline.shader",
+      "sourcePath": "Assets/07. Materials/KMB/Installation/InstallationPreviewOutline.shader",
+      "sha256": "5da0354b285add843c4094616d948fa03c62049395727af6c69cd411a43aa222"
+    }
+  ]
+}

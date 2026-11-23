@@ -1,0 +1,37 @@
+# This repository contains only a curated source snapshot and portfolio docs.
+.DS_Store
+Thumbs.db
+.vs/
+.idea/
+Library/
+Temp/
+Logs/
+UserSettings/
+Build/
+Builds/
+MemoryCaptures/
+Recordings/
+*.data
+*.log
+*.zip
+*.unitypackage
+*.fbx
+*.FBX
+*.blend
+*.png
+*.jpg
+*.wav
+*.mp3
+*.asset
+*.prefab
+*.unity
+*.meta
+.env
+.env.*
+
+# Media must be reviewed explicitly before publication.
+!docs/media/
+!docs/media/README.md
+!docs/media/*.png
+!docs/media/*.jpg
+!docs/media/*.gif
