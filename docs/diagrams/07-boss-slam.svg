@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="850" viewBox="0 0 2000 850"><title>보스 광역기의 전조와 타격</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#89A6BA"/></marker></defs><rect width="2000" height="850" fill="white"/><g font-family="Malgun Gothic, Noto Sans KR, sans-serif">
+<text x="60" y="78" text-anchor="start" font-size="48" font-weight="700" fill="#126379">보스 광역기의 전조와 타격</text>
+<text x="60" y="124" text-anchor="start" font-size="26" font-weight="400" fill="#668192">HP 50%에서 1회 예약 · 전조 채움과 타격 이벤트를 같은 시간축으로 연결</text>
+<text x="1940" y="79" text-anchor="end" font-size="24" font-weight="400" fill="#6C8291">파랑: KMB 구현   ·   회색: 팀 공통 기능</text>
+<polyline points="490,270 540,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="970,270 1030,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1460,270 1510,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1245,360 1245,450 1000,450 1000,550" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="60" y="180" width="430" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="275" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">패턴 예약</text>
+<text x="275" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">HP 50% 이하 · 1회 조건</text>
+<rect x="540" y="180" width="430" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="755" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">전조 시작</text>
+<text x="755" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">팔 올리기 · 원형 범위 채움</text>
+<rect x="1030" y="180" width="430" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1245" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">타격 이벤트</text>
+<text x="1245" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">클립 · 상태 · 중복 확인</text>
+<rect x="1510" y="180" width="430" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1725" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">종료 · 정리</text>
+<text x="1725" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">전조 숨김 · 실행 상태 해제</text>
+<rect x="540" y="550" width="920" height="160" rx="24" fill="#F5F7F9" stroke="#D3DDE4" stroke-width="1.6"/>
+<text x="1000" y="618" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">플레이어 · 동료 피해</text>
+<text x="1000" y="666" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">실제 반경·높이 검사 → 공통 DamageReceiver</text>
+<text x="60" y="813" text-anchor="start" font-size="25" font-weight="400" fill="#668192">실행 중 사망·비활성화에도 전조를 정리합니다. 원본 모델·애니메이션은 외부 에셋을 사용했습니다.</text>
+</g></svg>

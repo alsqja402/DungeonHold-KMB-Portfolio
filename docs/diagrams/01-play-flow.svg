@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="800" viewBox="0 0 2000 800"><title>플레이 흐름</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#89A6BA"/></marker></defs><rect width="2000" height="800" fill="white"/><g font-family="Malgun Gothic, Noto Sans KR, sans-serif">
+<text x="60" y="78" text-anchor="start" font-size="48" font-weight="700" fill="#126379">플레이 흐름</text>
+<text x="60" y="124" text-anchor="start" font-size="26" font-weight="400" fill="#668192">던전 홀드 · 준비 → 방어 → 결과 → 다음 도전</text>
+<text x="1940" y="79" text-anchor="end" font-size="24" font-weight="400" fill="#6C8291">파랑: KMB 구현   ·   회색: 팀 공통 기능</text>
+<polyline points="490,270 540,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="970,270 1030,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1460,270 1510,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1245,360 1245,430 755,430 755,360" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1000" y="466" text-anchor="middle" font-size="25" font-weight="400" fill="#637F92">다음 웨이브 준비</text>
+<polyline points="1725,360 1725,530" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1030,605 1000,605 1000,470 275,470 275,360" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" stroke-dasharray="9 7"/>
+<polyline points="970,570 1000,570 1000,340 1030,340" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" stroke-dasharray="9 7"/>
+<rect x="60" y="180" width="430" height="180" rx="24" fill="#F5F7F9" stroke="#D3DDE4" stroke-width="1.6"/>
+<text x="275" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">로비 준비</text>
+<text x="275" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">스테이지 · 무기 · 강화</text>
+<rect x="540" y="180" width="430" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="755" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">설치와 재정비</text>
+<text x="755" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">배치 검증 · 비용 · 프리뷰</text>
+<rect x="1030" y="180" width="430" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1245" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">웨이브 진행</text>
+<text x="1245" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">스폰 · 생존 · 통과 집계</text>
+<rect x="1510" y="180" width="430" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1725" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">스테이지 판정</text>
+<text x="1725" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">승패 · 별 · 점수 확정</text>
+<rect x="1030" y="530" width="910" height="150" rx="24" fill="#F5F7F9" stroke="#D3DDE4" stroke-width="1.6"/>
+<text x="1485" y="593" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">결과 표시와 영구 성장</text>
+<text x="1485" y="641" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">보상 지급 · 저장 · 로비 복귀</text>
+<rect x="60" y="530" width="910" height="150" rx="24" fill="#F5F7F9" stroke="#D3DDE4" stroke-width="1.6"/>
+<text x="515" y="593" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">플레이어 · 동료 전투</text>
+<text x="515" y="641" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">직접 전투와 설치물을 함께 활용</text>
+<text x="60" y="763" text-anchor="start" font-size="25" font-weight="400" fill="#668192">설치·웨이브·판정은 KMB가 담당하고, 전투 기반·보상·저장·화면은 팀 공통 기능과 연결합니다.</text>
+</g></svg>

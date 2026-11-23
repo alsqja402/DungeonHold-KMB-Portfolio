@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="850" viewBox="0 0 2000 850"><title>웨이브와 스폰 구조</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#89A6BA"/></marker></defs><rect width="2000" height="850" fill="white"/><g font-family="Malgun Gothic, Noto Sans KR, sans-serif">
+<text x="60" y="78" text-anchor="start" font-size="48" font-weight="700" fill="#126379">웨이브와 스폰 구조</text>
+<text x="60" y="124" text-anchor="start" font-size="26" font-weight="400" fill="#668192">데이터로 적 구성을 정의하고, 생성 완료와 생존 수를 함께 확인</text>
+<polyline points="490,270 540,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="970,270 1030,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1460,270 1510,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1725,360 1725,460 515,460 515,550" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="970,630 1030,630" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1245,550 1245,360" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1320" y="487" text-anchor="middle" font-size="25" font-weight="400" fill="#637F92">다음 생성 준비</text>
+<rect x="60" y="180" width="430" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="275" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">스테이지 데이터</text>
+<text x="275" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">난이도 · 시간 · 전투 배율</text>
+<rect x="540" y="180" width="430" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="755" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">웨이브 구성</text>
+<text x="755" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">적 종류 · 수량 · 생성 묶음</text>
+<rect x="1030" y="180" width="430" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1245" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">스폰 실행</text>
+<text x="1245" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">방향 · 간격 · 생존 상한</text>
+<rect x="1510" y="180" width="430" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1725" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">적 생성과 이동</text>
+<text x="1725" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">스포너 · 경로 · 목표</text>
+<rect x="1030" y="550" width="910" height="160" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1485" y="618" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">완료 조건과 다음 웨이브</text>
+<text x="1485" y="666" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">예정 스폰 종료 + 생존 일반 적 0</text>
+<rect x="60" y="550" width="910" height="160" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="515" y="618" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">사망 · 통과 집계</text>
+<text x="515" y="666" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">처치와 출구 통과를 서로 다른 사건으로 처리</text>
+<text x="60" y="813" text-anchor="start" font-size="25" font-weight="400" fill="#668192">일반 적의 웨이브 집계와 Stage 3 보스의 생존·처치는 분리합니다.</text>
+</g></svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1130" viewBox="0 0 2000 1130"><title>Stage 3의 2단계 전투</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#89A6BA"/></marker></defs><rect width="2000" height="1130" fill="white"/><g font-family="Malgun Gothic, Noto Sans KR, sans-serif">
+<text x="60" y="78" text-anchor="start" font-size="48" font-weight="700" fill="#126379">Stage 3의 2단계 전투</text>
+<text x="60" y="124" text-anchor="start" font-size="26" font-weight="400" fill="#668192">석상 방어에서 출구 방어로 전환하고, 보스 처치까지 완료해야 승리</text>
+<polyline points="610,270 725,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1275,270 1390,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1665,360 1665,430 500,430 500,510" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1665,430 1500,430 1500,510" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="500,690 500,760 1000,760 1000,840" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1500,690 1500,760 1000,760" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="60" y="180" width="550" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="335" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">1차 석상 방어</text>
+<text x="335" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">일반 적이 중앙 석상 공격</text>
+<rect x="725" y="180" width="550" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1000" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">전환 조건</text>
+<text x="1000" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">석상 HP 0 또는 시간 조건</text>
+<rect x="1390" y="180" width="550" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1665" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">공통 전환 처리</text>
+<text x="1665" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">석상 연출 · 보스 1회 등장</text>
+<rect x="60" y="510" width="880" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="500" y="588" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">일반 적은 출구로 이동</text>
+<text x="500" y="636" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">생존 적 경로 변경 + 신규 적 2차 경로</text>
+<rect x="1060" y="510" width="880" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1500" y="588" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">보스는 플레이어 추격</text>
+<text x="1500" y="636" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">일반 적 생존·통과 수에서는 제외</text>
+<rect x="350" y="840" width="1300" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1000" y="918" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">복합 승리 조건</text>
+<text x="1000" y="966" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">일반 적 스폰 종료 · 생존 0 · 보스 처치 · 통과 한도 미만</text>
+<text x="60" y="1093" text-anchor="start" font-size="25" font-weight="400" fill="#668192">석상 HP 0은 즉시 패배가 아닙니다. 통과 한도 도달·부활 소진·전체 전투시간 초과는 패배 조건입니다.</text>
+</g></svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1120" viewBox="0 0 2000 1120"><title>PlayBase와 맵 준비 연계</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#89A6BA"/></marker></defs><rect width="2000" height="1120" fill="white"/><g font-family="Malgun Gothic, Noto Sans KR, sans-serif">
+<text x="60" y="78" text-anchor="start" font-size="48" font-weight="700" fill="#126379">PlayBase와 맵 준비 연계</text>
+<text x="60" y="124" text-anchor="start" font-size="26" font-weight="400" fill="#668192">공용 수명을 유지하고, KMB 맵의 데이터·참조·종료 링크를 연결</text>
+<text x="1940" y="79" text-anchor="end" font-size="24" font-weight="400" fill="#6C8291">파랑: KMB 구현   ·   회색: 팀 공통 기능</text>
+<polyline points="610,270 725,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1275,270 1390,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1665,360 1665,430 500,430 500,510" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="940,600 1060,600" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1500,690 1500,840" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="60" y="180" width="550" height="180" rx="24" fill="#F5F7F9" stroke="#D3DDE4" stroke-width="1.6"/>
+<text x="335" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">공용 SceneFlow</text>
+<text x="335" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">맵 · 난이도 · 준비 요청 번호</text>
+<rect x="725" y="180" width="550" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1000" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">KMBStageEntry</text>
+<text x="1000" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">요청 확인 · 난이도 데이터 선택</text>
+<rect x="1390" y="180" width="550" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1665" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">맵 모듈 초기화</text>
+<text x="1665" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">Wave · Stage · Build</text>
+<rect x="60" y="510" width="880" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="500" y="588" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">맵 참조 · 종료 링크 등록</text>
+<text x="500" y="636" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">프리뷰 · 동료 배치점 · 시작/부활 기준점</text>
+<rect x="1060" y="510" width="880" height="180" rx="24" fill="#F5F7F9" stroke="#D3DDE4" stroke-width="1.6"/>
+<text x="1500" y="588" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">공용 도전 시작</text>
+<text x="1500" y="636" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">플레이어 · 카메라 · 입력 · HUD 유지</text>
+<rect x="350" y="840" width="1300" height="170" rx="24" fill="#F5F7F9" stroke="#D3DDE4" stroke-width="1.6"/>
+<text x="1000" y="913" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">종료 사건 → 보상 · 저장 · 화면 전환</text>
+<text x="1000" y="961" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">KMB 확정 결과 전달 → 팀 공통 종료 조율</text>
+<text x="60" y="1083" text-anchor="start" font-size="25" font-weight="400" fill="#668192">준비 요청 번호와 실제 도전 번호를 구분하고, 맵 해제 때 이전 참조와 종료 연결을 반환합니다.</text>
+</g></svg>

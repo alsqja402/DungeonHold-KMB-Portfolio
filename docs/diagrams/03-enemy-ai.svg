@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="920" viewBox="0 0 2000 920"><title>적 AI의 이동과 반격</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#89A6BA"/></marker></defs><rect width="2000" height="920" fill="white"/><g font-family="Malgun Gothic, Noto Sans KR, sans-serif">
+<text x="60" y="78" text-anchor="start" font-size="48" font-weight="700" fill="#126379">적 AI의 이동과 반격</text>
+<text x="60" y="124" text-anchor="start" font-size="26" font-weight="400" fill="#668192">목적지 이동을 기본으로 유지하고, 반격·상태이상·복귀를 연결</text>
+<text x="1940" y="79" text-anchor="end" font-size="24" font-weight="400" fill="#6C8291">파랑: KMB 구현   ·   회색: 팀 공통 기능</text>
+<polyline points="610,270 725,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1275,270 1390,270" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1665,360 1665,500" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="725,590 665,590 665,425 335,425 335,360" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="335,500 335,360" fill="none" stroke="#89A6BA" stroke-width="3" stroke-linejoin="round" marker-end="url(#arrow)" stroke-dasharray="9 7"/>
+<text x="350" y="758" text-anchor="middle" font-size="25" font-weight="400" fill="#637F92">속도·중단 상태 반영</text>
+<rect x="60" y="180" width="550" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="335" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">목적지 이동</text>
+<text x="335" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">스포너 경로 · 웨이포인트</text>
+<rect x="725" y="180" width="550" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1000" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">반격 대상 판단</text>
+<text x="1000" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">생존 · 거리 · 접근 가능 여부</text>
+<rect x="1390" y="180" width="550" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1665" y="258" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">추격과 공격</text>
+<text x="1665" y="306" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">이동 중단 · 회전 · 타격</text>
+<rect x="725" y="500" width="1215" height="180" rx="24" fill="#EDF6FB" stroke="#BBD9EA" stroke-width="1.6"/>
+<text x="1332.5" y="578" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">반격 정책에 따른 복귀</text>
+<text x="1332.5" y="626" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">제한 횟수 종료 / 대상 조건 해제 → 경로 재선택</text>
+<rect x="60" y="500" width="550" height="180" rx="24" fill="#F5F7F9" stroke="#D3DDE4" stroke-width="1.6"/>
+<text x="335" y="578" text-anchor="middle" font-size="38" font-weight="700" fill="#253C50">공통 효과 상태</text>
+<text x="335" y="626" text-anchor="middle" font-size="30" font-weight="400" fill="#344F63">기절 · 감속 · 넉백 · 사망</text>
+<text x="60" y="883" text-anchor="start" font-size="25" font-weight="400" fill="#668192">반격 조건을 충족한 동료도 대상에 포함하며, 보스는 별도 플레이어 지속 추격 모드를 사용합니다.</text>
+</g></svg>
